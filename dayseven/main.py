@@ -72,7 +72,7 @@ logo = '''
 |_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
                     __/ |                      
                    |___/    '''
-#TODO-1 - Randomly choose a word from the word_list and assign it to ab variable called chosen_word.
+
 word_to_guess=random.choice(word_list)
 display = []
 word_len= len(word_to_guess)

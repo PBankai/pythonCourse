@@ -1,5 +1,4 @@
-Este archivo contiene los comnentarios
-acerca de la utiidad del curso
-Utilizando git y git hub
-además servirá como recuento de los avances
-fechas de modificación
+hundred day of python course by angela Yu
+on udemy
+we are to do a challenge of python coding on daily basis
+repo, to get a history of my progress
