@@ -37,18 +37,18 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-images_game= [scissors,rock,paper]
+images_game= [scissors, rock, paper]
 print(" Going to play scissors, rocks or paper")
 machine_value=random.randint(1,3)
-value=int(input("What doyou chose: 1 for scissors, 2 for rock and 3 for paper: "))
+value=int(input("What do you chose: 1 for scissors, 2 for rock and 3 for paper: "))
 print(images_game[value-1]+images_game[machine_value-1])
-if machine_value==1 and value==2:
+if machine_value == 1 and value == 2:
     print("You win")
-elif machine_value==2 and value==3:
+elif machine_value == 2 and value == 3:
     print("You win")
-elif machine_value==3 and value==1:
+elif machine_value == 3 and value == 1:
     print("You win")
-elif machine_value==value:
+elif machine_value == value:
     print("It's a draw")
 else:
     print("You lose")
